@@ -6,9 +6,9 @@ public class conexion {
         Connection conection = null;
         try {
             conection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mensajes_app?serverTimezone=UTC", "root","MinYoongi0903");
-            if (conection != null) {
+            /*if (conection != null) {
                 System.out.println("Si conectó :D");
-            }
+            }*/
         }catch(SQLException e){
             System.out.println("Error en conexión!! " + e);
         }

@@ -1,11 +1,8 @@
 import java.sql.Connection;
 public class inicio {
     public static void main(String[] args) {
-        conexion conexion = new conexion();
-        try(Connection cnx = conexion.get_connecction()){
+        /*--- Menu de opciones ---*/
+        Menu menu = new Menu();
 
-        }catch (Exception e){
-            System.out.println("no se puede conectar :c");
-        }
     }
 }
