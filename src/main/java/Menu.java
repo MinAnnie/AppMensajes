@@ -11,8 +11,8 @@ public class Menu {
             System.out.println("Escoge una opción.");
             System.out.println("1. Crear mensaje");
             System.out.println("2. Listar mensajes");
-            System.out.println("3. Editar mensaje");
-            System.out.println("4. Eliminar mensaje");
+            System.out.println("3. Eliminar mensaje");
+            System.out.println("4. Editar mensaje");
             System.out.println("5. Salir.");
             /*--- leer la opción ---*/
             opcion = sc.nextInt();
@@ -27,12 +27,12 @@ public class Menu {
                     MensajesService.ListarMensajes();
                     break;
                 case 3:
-                    System.out.println("--- Editar Mensaje ---");
-                    MensajesService.EditarMensaje();
+                    System.out.println("--- Eliminar Mensaje ---");
+                    MensajesService.BorrarMensaje();
                     break;
                 case 4:
-                    System.out.println("--- Eliminar mensaje ---");
-                    MensajesService.BorrarMensaje();
+                    System.out.println("--- Editar mensaje ---");
+                    MensajesService.EditarMensaje();
                     break;
                 default:
                     System.out.println("Por favor selecciona una opción.");

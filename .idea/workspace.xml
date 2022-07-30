@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56f80cc5-d9b1-42af-970f-d3186a84c204" name="Changes" comment="clase conexión ha sido creada y probada">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Mensajes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MensajesDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MensajesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
+    <list default="true" id="56f80cc5-d9b1-42af-970f-d3186a84c204" name="Changes" comment="creadas clases para crud de mensajes y menú">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Mensajes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mensajes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MensajesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MensajesDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MensajesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MensajesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/avmat/OneDrive/Documentos/mysql-connector-java-8.0.25.jar",
+    "last_opened_file_path": "D:/proyectos-personales/AppMensajes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,7 +92,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658792700618</updated>
-      <workItem from="1658792705292" duration="7047000" />
+      <workItem from="1658792705292" duration="7321000" />
+      <workItem from="1659058519183" duration="1686000" />
+      <workItem from="1659137752952" duration="65000" />
+      <workItem from="1659138535341" duration="3192000" />
     </task>
     <task id="LOCAL-00001" summary="primera version del proyecto">
       <created>1658792847473</created>
@@ -117,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658797428436</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creadas clases para crud de mensajes y menú">
+      <created>1658803261745</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658803261745</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +146,7 @@
     <MESSAGE value="primera version del proyecto" />
     <MESSAGE value="clase inicio creada" />
     <MESSAGE value="clase conexión ha sido creada y probada" />
-    <option name="LAST_COMMIT_MESSAGE" value="clase conexión ha sido creada y probada" />
+    <MESSAGE value="creadas clases para crud de mensajes y menú" />
+    <option name="LAST_COMMIT_MESSAGE" value="creadas clases para crud de mensajes y menú" />
   </component>
 </project>

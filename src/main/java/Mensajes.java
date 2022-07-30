@@ -2,8 +2,8 @@ import java.util.Date;
 
 public class Mensajes {
 /*--- métodos  ---*/
-    private int idMensaje;
-    private String mensaje;
+    private static int idMensaje;
+    private static String mensaje;
     private String autorMensaje;
     private Date fechaMensaje;
 
@@ -18,7 +18,7 @@ public class Mensajes {
     }
 
     /*--- Getters y Setters ---*/
-    public int getIdMensaje() {
+    public static int getIdMensaje() {
         return idMensaje;
     }
 
@@ -26,7 +26,7 @@ public class Mensajes {
         this.idMensaje = idMensaje;
     }
 
-    public String getMensaje() {
+    public static String getMensaje() {
         return mensaje;
     }
 
